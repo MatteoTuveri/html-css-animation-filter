@@ -51,9 +51,39 @@
     filter: brightness(150%) grayscale(60%);
     border-radius: 25px;
 }
+
 /*nineth-exercise*/
 .ex-9-img:hover {
-    filter:invert(20%) sepia(30%) ;
+    filter: invert(20%) sepia(30%);
     border-radius: 25px;
     transform: scale(1.5);
+}
+
+.ex-10-icon {
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.ex-11-icon:hover{
+    animation: rotation-minus 1s linear infinite;
+}
+
+@keyframes rotation-minus {
+    from {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(calc(360deg - 90deg));
+    }
+    to {
+        transform: rotate(0deg);
+    }
 }
