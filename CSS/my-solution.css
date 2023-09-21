@@ -1,0 +1,59 @@
+[class*="square"],
+[class*="img"] {
+    transition: 2s;
+}
+
+.ex-6-img {
+    transition: none;
+}
+
+/*first-exercise*/
+.ex-1-square:hover {
+    background-color: red;
+}
+
+/*second-exercise*/
+.ex-2-square:active {
+    width: 100%;
+}
+
+/*third-exercise*/
+.ex-3-square:hover {
+    border-radius: 100%;
+}
+
+/*fourth-exercise*/
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/*fiveth-exercise*/
+.ex-5-square:hover {
+    transform: scale(2);
+}
+
+.ex-5-square:active {
+    transform: scale(0.5);
+}
+
+/*sixth-exercise*/
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+/*sixth-exercise*/
+.ex-7-img:hover {
+    filter: brightness(60%) sepia(80%);
+}
+
+/*eightth-exercise*/
+.ex-8-img:hover {
+    filter: brightness(150%) grayscale(60%);
+    border-radius: 25px;
+}
+/*nineth-exercise*/
+.ex-9-img:hover {
+    filter:invert(20%) sepia(30%) ;
+    border-radius: 25px;
+    transform: scale(1.5);
+}
